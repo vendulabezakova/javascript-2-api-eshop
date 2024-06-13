@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "interpret": "Burzum",
+        "album": "Fallen",
+        "release": "2011",
+        "image": "https://muzikercdn.com/uploads/products/3876/387629/main_4aeeccb7.jpg",
+        "price": "585 Kč",
+        "genre": "Ambient Black Metal",
+        "distribution": "Back on Black"
+    },
+
+    {
+        "id": 1,
+        "interpret": "Darkthrone",
+        "album": "Transilvanian Hunger",
+        "release": "2011",
+        "image": "https://muzikercdn.com/uploads/products/3604/360419/main_309ac2ac.jpg",
+        "price": "682 Kč",
+        "genre": "Black Metal",
+        "distribution": "Peaceville"
+    },
+
+    {
+        "id": 2,
+        "interpret": "Candlemass",
+        "album": "House Of Doom",
+        "release": "2018",
+        "image": "https://muzikercdn.com/uploads/products/10550/1055077/main_9326ccab.JPG",
+        "price": "541 Kč",
+        "genre": "Doom Metal",
+        "distribution": "Napalm Records"
+    }
+]
