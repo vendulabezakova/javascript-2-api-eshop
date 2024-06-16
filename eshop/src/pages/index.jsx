@@ -1,23 +1,12 @@
 import { render } from '@czechitas/render';
-import '../global.css';
 import './index.css';
+import '../global.css';
+
 
 const response = await fetch("http://localhost:4001/api/products")
 const json = await response.json()
-
 const product = json.data
 
-//console.log(product)
-
-/*document.querySelector('#root').innerHTML = render (
-    <>
-        {
-            product.map((item) => (
-                <div key={item.id}><a href={`product.html?id=${item.id}`}>{item.interpret} - {item.album}</a></div>
-            ))
-        }
-    </>
-)*/
 
 document.querySelector('#root').innerHTML = render (
     <>

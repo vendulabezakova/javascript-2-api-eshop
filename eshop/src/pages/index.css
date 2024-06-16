@@ -1,3 +1,10 @@
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -5,9 +12,41 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../img/rocket.svg);
-  background-size: contain;
+.hero {
+  background-image: url('../img/homepage-cover.avif');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
+
+.hero h1 {
+  font-size: 150px;
+  margin-bottom: 0.5em;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.357);
+}
+
+.hero-button {
+  background-color: #466369ff;
+  color: white;
+  border: none;
+  padding: 30px 50px;
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 800;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.hero-button:hover {
+  background-color: rgb(81, 121, 129);
+}
+
+/*Products*/
+

@@ -1,0 +1,40 @@
+
+h1 {
+    font-size: 70px;
+}
+
+.product-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: flex-start;
+}
+
+#detail-img img {
+    width: 600px;
+    margin-right: 30px;
+}
+
+.interpret-table td {
+    padding: 10px 30px 10px 0;
+}
+
+.interpret-table {
+    border-collapse: collapse;
+}
+
+button {
+    background-color: #466369ff;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+
+  button:hover {
+    background-color: rgb(81, 121, 129);
+  }
