@@ -5,8 +5,8 @@
         "album": "Fallen",
         "release": "2011",
         "image": "https://muzikercdn.com/uploads/products/3876/387629/main_4aeeccb7.jpg",
-        "price": "585 Kč",
-        "genre": "Ambient Black Metal",
+        "price": "589 Kč",
+        "genre": "Ambient",
         "distribution": "Back on Black"
     },
 
@@ -15,9 +15,9 @@
         "interpret": "Darkthrone",
         "album": "Transilvanian Hunger",
         "release": "2011",
-        "image": "https://muzikercdn.com/uploads/products/3604/360419/main_309ac2ac.jpg",
-        "price": "682 Kč",
-        "genre": "Black Metal",
+        "image": "https://www.emp-shop.cz/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dwb1cc49fd/images/2/9/3/3/293335-emp.jpg?sw=1000&sh=800&sm=fit&sfrm=png",
+        "price": "689 Kč",
+        "genre": "Black",
         "distribution": "Peaceville"
     },
 
@@ -27,8 +27,41 @@
         "album": "House Of Doom",
         "release": "2018",
         "image": "https://muzikercdn.com/uploads/products/10550/1055077/main_9326ccab.JPG",
-        "price": "541 Kč",
-        "genre": "Doom Metal",
+        "price": "559 Kč",
+        "genre": "Doom",
         "distribution": "Napalm Records"
+    },
+
+    {
+        "id": 3,
+        "interpret": "Runhild Gammelsæter",
+        "album": "Amplicon",
+        "release": "2011",
+        "image": "https://lastfm.freetls.fastly.net/i/u/770x0/99d990722f3ed401b878c915afc3e840.jpg#99d990722f3ed401b878c915afc3e840",
+        "price": "769 Kč",
+        "genre": "Drone",
+        "distribution": "Little Black Cloud Records"
+    },
+
+    {
+        "id": 4,
+        "interpret": "Chelsea Wolfe",
+        "album": "She Reaches Out To She Reaches Out To She",
+        "release": "2024",
+        "image": "https://m.media-amazon.com/images/I/91fPbXkxCML._SL1500_.jpg",
+        "price": "899 Kč",
+        "genre": "Sludge",
+        "distribution": "Sargent House"
+    },
+
+    {
+        "id": 5,
+        "interpret": "DRUDKH",
+        "album": "Autumn Aurora",
+        "release": "2004",
+        "image": "http://www.epidemie.cz/image/cache/data/cdfullprice/drudkh-autumn-1000x1000.jpg",
+        "price": "469 Kč",
+        "genre": "Atmospheric",
+        "distribution": "Supernal Music"
     }
 ]

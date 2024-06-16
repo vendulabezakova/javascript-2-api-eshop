@@ -1,6 +1,20 @@
 import { render } from '@czechitas/render';
 
-export function Product({ interpret, album, price, image, release, distribution, genre}) {
+const params = new URLSearchParams(window.location.search);
+const id = params.get('id');
+
+const response = await fetch(`http://localhost:4001/api/products/${id}`)
+const json = await response.json()
+const product = json.data
+
+document.querySelector('#root').innerHTML = render (
+  <>
+  <h1>{product.interpret} - {product.album} ({product.release})</h1>
+  <img src={product.image}></img>
+  </>
+)
+
+/*export function Product({ interpret, album, price, image, release, distribution, genre}) {
     return (
       <div className="product">
         <img src={image} className="product-image" />
@@ -13,3 +27,6 @@ export function Product({ interpret, album, price, image, release, distribution,
       </div>
     );
   }
+
+*/
+
